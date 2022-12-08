@@ -1,0 +1,15 @@
+.app {
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+  &__body {
+    display: flex;
+    max-width: 1200px;
+    min-width: 65%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
